@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "welcome to Achro i.MX6Q"
+
+#TODO
