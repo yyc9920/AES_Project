@@ -23,6 +23,8 @@
 #define TEXT_LCD_MAX_BUF	32
 #define TEXT_LCD_LINE_BUF	16
 #define DIP_SWITCH_DEVICE "/dev/fpga_dip_switch"
+#define PUSH_SWITCH_DEVICE	"/dev/fpga_push_switch"
+#define IOM_PUSH_SWITCH_MAX_BUTTON	9
 
 void assert(int cond, char *msg) {
 	if (!cond) {
